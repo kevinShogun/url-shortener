@@ -1,40 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## URL Shortener SPA with React and Next.js
 
-## Getting Started
+Welcome to our Single Page Application (SPA) dedicated to URL shortening, built with React, TypeScript, and Next.js. This application utilizes the powerful Next.js framework, specifically its version with the Pages Router, to handle routing seamlessly. We've incorporated Prisma for database management, PostgresSQL as our database, and Docker with Docker Compose to containerize and deploy our database effortlessly.
 
-First, run the development server:
+### Key Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React:** Providing a robust foundation for building interactive user interfaces.
+- **TypeScript:** Ensuring type safety and enhancing code maintainability.
+- **Next.js (with Pages Router):** Simplifying routing and enabling efficient server-side rendering.
+- **Prisma:** Streamlining database operations and management.
+- **PostgresSQL:** Utilizing a reliable and scalable relational database management system.
+- **Docker (with Docker Compose):** Containerizing our application and database for easy deployment.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Getting Started
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To set up and run the application:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Clone the repository:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory:
 
-## Learn More
+   ```bash
+   cd your-repo
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Start the application:
 
-## Deploy on Vercel
+   ```bash
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Access the application via your browser at `http://localhost:3000/`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Database Setup
+
+To set up the PostgresSQL database using Docker Compose:
+
+1. Ensure you have Docker installed on your system.
+2. Navigate to the project directory.
+3. Run the following command:
+
+   ```bash
+   docker-compose up
+   ```
+
+### Note
+
+Make sure to configure Prisma to connect to your PostgresSQL database properly in the `prisma/schema.prisma` file.
+
+### Usage
+
+Experience the convenience of URL shortening with our SPA. Generate short URLs effortlessly and manage them seamlessly.
+
+### Contact
+
+For inquiries or collaboration opportunities, feel free to reach out via email at [gkevinyamil@gmail.com](mailto:gkevinyamil@gmail.com).
+
+---
+
+Simplify your URL management with our URL Shortener SPA, built with cutting-edge technologies for a seamless experience. Thank you for choosing our application! 🔗✂️🚀

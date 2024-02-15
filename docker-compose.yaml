@@ -1,0 +1,11 @@
+services:
+  shorterdb:
+    image: postgres:9.6
+    environment:
+      POSTGRES_DB: shorter
+      POSTGRES_USER: shorter
+      POSTGRES_PASSWORD: shorter
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/var/lib/postgresql/data
