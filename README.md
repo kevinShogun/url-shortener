@@ -2,6 +2,8 @@
 
 Welcome to our Single Page Application (SPA) dedicated to URL shortening, built with React, TypeScript, and Next.js. This application utilizes the powerful Next.js framework, specifically its version with the Pages Router, to handle routing seamlessly. We've incorporated Prisma for database management, PostgresSQL as our database, and Docker with Docker Compose to containerize and deploy our database effortlessly.
 
+https://github.com/kevinShogun/url-shortener/assets/54457637/21c4e22b-4ce3-4a4b-b52b-8dec6cda56a4
+
 ### Key Technologies
 
 - **React:** Providing a robust foundation for building interactive user interfaces.
